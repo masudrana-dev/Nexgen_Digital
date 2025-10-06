@@ -9,7 +9,7 @@ const Home = () => {
       style={{ backgroundImage: `url(${sectionBg})` }}
     >
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_rgba(255,255,255,0.05)_1px,_transparent_1px)] bg-[size:40px_40px]" />
-      <nav className="absolute top-0 left-0 w-full flex justify-center py-6 z-20">
+      <nav className="fixed top-0 left-0 w-full flex justify-center py-6 z-20">
         <div className="flex items-center justify-between w-full max-w-[500px] border border-[#1f2937] rounded-2xl px-8 py-3 bg-[#030712]/50 backdrop-blur-md">
           <div className="text-sm font-semibold tracking-widest uppercase text-gray-300">
             <img src={logo} alt="" className='w-[86px]' />
