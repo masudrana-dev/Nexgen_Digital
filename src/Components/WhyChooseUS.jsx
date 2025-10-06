@@ -1,7 +1,7 @@
 import { Award, Globe, Lightbulb } from "lucide-react";
-import img1 from '../assets/Frame-1.svg'
+// import img1 from '../assets/Frame-1.svg'
 
-export default function WhyChooseUsSection() {
+export default function WhyChooseUs() {
   const features = [
     {
       icon: Award,

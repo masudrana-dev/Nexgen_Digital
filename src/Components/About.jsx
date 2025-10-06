@@ -6,7 +6,7 @@ import img3 from '../assets/Ai-3.png'
 const About = () => {
 
   return (
-    <div className="w-full min-h-screen  py-16 px-4 sm:px-6 lg:px-8">
+    <div className="w-full min-h-screen  py-16 px-4 sm:px-6 lg:px-8" id='about'>
       <div className="max-w-7xl mx-auto">
 
         <h2 className="text-[56px] sm:text-5xl lg:text-6xl font-semibold text-gray-900 text-center mb-12">

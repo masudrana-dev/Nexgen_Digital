@@ -18,7 +18,7 @@ const Service = () => {
     },
   ];
   return (
-    <div className="w-full min-h-screen  py-16 px-4 sm:px-6 lg:px-8">
+    <div className="w-full min-h-screen  py-16 px-4 sm:px-6 lg:px-8" id='service'>
       <div className="max-w-7xl mx-auto">
         <h2 className="text-4xl sm:text-5xl lg:text-6xl font-semibold text-[#15203D] text-center mb-16">
           Our Services

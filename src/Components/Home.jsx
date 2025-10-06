@@ -7,6 +7,7 @@ const Home = () => {
   return (
     <section className="relative h-screen w-full border rounded-[100px] text-white overflow-hidden bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: `url(${sectionBg})` }}
+      id='home'
     >
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_rgba(255,255,255,0.05)_1px,_transparent_1px)] bg-[size:40px_40px]" />
       <nav className="fixed top-0 left-0 w-full flex justify-center py-6 z-20">
@@ -16,24 +17,24 @@ const Home = () => {
           </div>
           <ul className="flex space-x-8 text-sm font-medium text-gray-300">
             <li>
-              <Link to="#" className="text-[#CBB26A] hover:text-white transition text-[18px]">
+              <a href='#home' className="text-[#CBB26A] hover:text-white transition text-[18px]">
                 Home
-              </Link>
+              </a>
             </li>
             <li>
-              <Link to="#" className="text-[#CBB26A] hover:text-white transition text-[18px]">
-                Services
-              </Link>
-            </li>
-            <li>
-              <Link to="#" className="text-[#CBB26A] hover:text-white transition text-[18px]">
+           <a href='#about' className="text-[#CBB26A] hover:text-white transition text-[18px]">
                 About
-              </Link>
+              </a>
             </li>
             <li>
-              <Link to="#" className="text-[#CBB26A] hover:text-white transition text-[18px]">
+            <a href='#service' className="text-[#CBB26A] hover:text-white transition text-[18px]">
+                Service
+              </a>
+            </li>
+            <li>
+            <a href='#contact' className="text-[#CBB26A] hover:text-white transition text-[18px]">
                 Contact
-              </Link>
+              </a>
             </li>
           </ul>
         </div>
@@ -50,9 +51,12 @@ const Home = () => {
             technologies. Partner with Next Generation Digital Architects to
             unlock the full potential of your data and drive sustainable growth.
           </p>
-          <button className="bg-[#DBBB5D] cursor-pointer text-gray-900 font-medium px-6 py-3 rounded-md hover:bg-yellow-300 transition">
+          <a href="#contact">
+            <button className="bg-[#DBBB5D] cursor-pointer text-gray-900 font-medium px-6 py-3 rounded-md hover:bg-yellow-300 transition">
             Get Started
           </button>
+          </a>
+         
         </div>
 
         <div className="relative w-[320px] md:w-[400px] mt-16 lg:mt-0">

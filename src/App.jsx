@@ -1,11 +1,11 @@
 // import './App.css'
 import About from './Components/About'
-import ContactUsSection from './Components/contactUS'
-import FooterSection from './Components/Footer'
+import ContactUs from './Components/contactUS'
+import Footer from './Components/Footer'
 import Home from './Components/Home'
 import Service from './Components/Service'
 import Slider from './Components/Slider'
-import WhyChooseUsSection from './Components/WhyChooseUS'
+import WhyChooseUs from './Components/WhyChooseUS'
 
 function App() {
 
@@ -15,9 +15,9 @@ function App() {
   <Service/>
   <Slider/>
   <About/>
-  <WhyChooseUsSection/>
-  <ContactUsSection/>
-  <FooterSection/>
+  <WhyChooseUs/>
+  <ContactUs/>
+  <Footer/>
 </div>
   )
 }

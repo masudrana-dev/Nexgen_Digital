@@ -1,7 +1,7 @@
 import { Linkedin } from "lucide-react";
 import biglogo from '../assets/biglogo.png'
 
-export default function FooterSection() {
+export default function Footer() {
   return (
     <footer className="w-full bg-slate-900 py-16 px-4 sm:px-6 lg:px-8 rounded-t-3xl">
       <div className="max-w-7xl mx-auto">
@@ -9,7 +9,9 @@ export default function FooterSection() {
         <div className="flex justify-center mb-8">
           <div className="relative">
             <div className="w-32 h-32 rounded-full border-2 border-dashed border-yellow-600/40 flex items-center justify-center">
-              <img src={biglogo} alt="" />
+            <a href="#home">
+               <img src={biglogo} alt="" />
+            </a>
             </div>
           </div>
         </div>
@@ -21,7 +23,8 @@ export default function FooterSection() {
         <div className="flex items-center justify-center gap-3 mb-12">
           <span className="text-gray-400 text-sm mr-2">Connect With Us</span>
           <a
-            href="#linkedin"
+            href="https://www.linkedin.com/"
+            target="blank"
             className="w-10 h-10 bg-gray-700 hover:bg-blue-600 rounded flex items-center justify-center transition-all duration-300 hover:scale-110"
             aria-label="LinkedIn"
           >
@@ -29,7 +32,8 @@ export default function FooterSection() {
           </a>
 
           <a
-            href="#twitter"
+            href="https://x.com/?lang=en"
+             target="blank"
             className="w-10 h-10 bg-gray-700 hover:bg-gray-600 rounded flex items-center justify-center transition-all duration-300 hover:scale-110"
             aria-label="X (Twitter)"
           >
@@ -43,7 +47,8 @@ export default function FooterSection() {
           </a>
 
           <a
-            href="#google"
+            href="https://www.google.com/"
+            target="blank"
             className="w-10 h-10 bg-gray-700 hover:bg-red-600 rounded flex items-center justify-center transition-all duration-300 hover:scale-110"
             aria-label="Google"
           >
